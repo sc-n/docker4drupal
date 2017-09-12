@@ -1,3 +1,25 @@
+# [**SC-N**](https://github.com/sc-n) docker-compose
+### Based on [*Docker4Drupal*](https://github.com/wodby/docker4drupal)
+([my old repository](https://github.com/sc-n/drupal-docker))
+
+### Notes:
+* web/{drupal-folders-and-files}
+* "web" is site folder. There should be index.php
+* Bash aliases for Docker compose:
+    * alias d-drush="docker-compose exec --user 82 php drush"
+    * alias d-composer="docker-compose exec --user 82 php composer"
+* edit PROJECT_NAME variable in .env file
+
+#
+
+TRAEFIK settings:
+* [example settings](https://github.com/sc-n/traefik-docker-compose)
+* [Docker4Drupal developers guide](https://docker4drupal.readthedocs.io/en/latest/multiple-projects/)
+
+# 
+# 
+# 
+
 # Docker-based Drupal stack
 
 [![Documentation Status](https://readthedocs.org/projects/docker4drupal/badge/?version=latest)](http://docs.docker4drupal.org)
